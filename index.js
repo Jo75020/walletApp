@@ -1,6 +1,11 @@
-import { registerRootComponent } from 'expo';
 
-import App from './screens/App';
+import { registerRootComponent } from 'expo';
+import 'react-native-gesture-handler';
+import 'react-native-get-random-values';
+import './global';
+import { v4 as uuidv4 } from 'uuid';
+global.uuidv4 = uuidv4;
+import App from './src/screens/App';
 
 // registerRootComponent calls AppRegistry.registerComponent('main', () => App);
 // It also ensures that whether you load the app in Expo Go or in a native build,
