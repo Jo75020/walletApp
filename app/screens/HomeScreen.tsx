@@ -1,8 +1,6 @@
 import { StyleSheet, Text, View } from "react-native";
 import { Button } from "react-native";
 import { useNavigation } from "@react-navigation/native";
-import Otp from "../components/authentification/Otp";
-
 
 export function HomeScreen() {
   const navigation = useNavigation();

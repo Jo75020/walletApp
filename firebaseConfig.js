@@ -5,7 +5,7 @@ import { getReactNativePersistence } from "firebase/auth/react-native";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDSaVBlEX45VjpJV3-yjTMmVlB2Pv54i3c",
+  apiKey: "AIzaSyDsrLcOvMJnlbNC41aRreQH-RtUvAotyDw",
   authDomain: "walletapp-92b57.firebaseapp.com",
   projectId: "walletapp-92b57",
   storageBucket: "walletapp-92b57.appspot.com",

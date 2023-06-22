@@ -5,8 +5,10 @@ import { firebaseConfig, firebase } from '../../../firebaseConfig';
 import OTPTextInput from 'react-native-otp-textinput';
 import { Button } from 'react-native';
 import PhoneInput from "react-native-phone-input";
+import { useNavigation } from "@react-navigation/native";
 
 export function Otp() {
+  const navigation = useNavigation();
   let otpInput: any;
   const [PhoneNumber, setPhoneNumber] = useState<any>();
   const [PhoneActived, setPhoneActived] = useState<any>();
@@ -49,7 +51,8 @@ export function Otp() {
         setHasError(false);
         if (!isLogged && response) {
           setIsLogged(true);
-          console.log('User logged in successfully!', response)
+          console.log('User logged in successfully!', response);
+          navigation.navigate("Wallet");
         }
       })
       .catch((error) => {
