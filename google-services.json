@@ -1,41 +1,57 @@
 {
   "project_info": {
-    "project_number": "403808692422",
-    "project_id": "walletapp-c6d88",
-    "storage_bucket": "walletapp-c6d88.appspot.com"
+    "project_number": "19306046794",
+    "project_id": "walletapp-92b57",
+    "storage_bucket": "walletapp-92b57.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:403808692422:android:d8e8d146d69ae17bfb4fc7",
+        "mobilesdk_app_id": "1:19306046794:android:7815d62ea82fd35304cdb3",
         "android_client_info": {
           "package_name": "com.jordanceercles.walletApp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "403808692422-k0rt61t97ft67teeafjhk3jiakgfgf62.apps.googleusercontent.com",
+          "client_id": "19306046794-8ohb3u2o2ir7eh6i0pgn4581b7ptgbv9.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.jordanceercles.walletApp",
-            "certificate_hash": "85015ed3cf26e2d065e0cea5a96cd740c0693bf0"
+            "certificate_hash": "96fa6ad2b0d54d1f018f966b5bb80e66ed7232a1"
           }
         },
         {
-          "client_id": "403808692422-qo46re5rnfjfhl579r77ah9a2204a70h.apps.googleusercontent.com",
+          "client_id": "19306046794-domtiqn0knnqa6r7bra3tme0nnii0nno.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jordanceercles.walletApp",
+            "certificate_hash": "bfd2c33a3e2ce8e1c5379094cf44e3f95a82356e"
+          }
+        },
+        {
+          "client_id": "19306046794-jp0hshb6naepilnf3hql5pmv73dpqr1b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jordanceercles.walletApp",
+            "certificate_hash": "457fc77b9ce2d62d76f3ca8f3d371c58067f59b0"
+          }
+        },
+        {
+          "client_id": "19306046794-3q2go79f1pbseqik716t1rn2m2cggt3a.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyD3sY_h1M7YOeA-BbxKnhPyspmIhTwNcpg"
+          "current_key": "AIzaSyDsrLcOvMJnlbNC41aRreQH-RtUvAotyDw"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "403808692422-qo46re5rnfjfhl579r77ah9a2204a70h.apps.googleusercontent.com",
+              "client_id": "19306046794-3q2go79f1pbseqik716t1rn2m2cggt3a.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

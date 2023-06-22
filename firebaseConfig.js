@@ -1,17 +1,26 @@
-import { initializeApp } from "firebase/app";
-import { auth } from "firebase/auth";
+import firebase from 'firebase/compat/app';
+import 'firebase/compat/auth';
+import { initializeAuth } from "firebase/auth";
+import { getReactNativePersistence } from "firebase/auth/react-native";
+import AsyncStorage from "@react-native-async-storage/async-storage";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyD5IQq-jB0XHH1ZMaDzdNCesCGu8B6UQp0",
-  authDomain: "walletapp-c6d88.firebaseapp.com",
-  projectId: "walletapp-c6d88",
-  storageBucket: "walletapp-c6d88.appspot.com",
-  messagingSenderId: "403808692422",
-  appId: "1:403808692422:web:d04c5dc691e4e80ffb4fc7",
-  measurementId: "G-L2SMKLBP1X"
+  apiKey: "AIzaSyDSaVBlEX45VjpJV3-yjTMmVlB2Pv54i3c",
+  authDomain: "walletapp-92b57.firebaseapp.com",
+  projectId: "walletapp-92b57",
+  storageBucket: "walletapp-92b57.appspot.com",
+  messagingSenderId: "19306046794",
+  appId: "1:19306046794:android:7815d62ea82fd35304cdb3",
 };
 
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
+if (firebase.apps.length === 0) {
+  firebase.initializeApp(firebaseConfig);
+} else {
+  firebase.app()
+}
 
-export { app, auth }
+initializeAuth(firebase.app(), {
+  persistence: getReactNativePersistence(AsyncStorage),
+});
+
+export { firebaseConfig, firebase };
