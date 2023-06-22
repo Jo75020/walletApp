@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "403808692422",
+    "project_id": "walletapp-c6d88",
+    "storage_bucket": "walletapp-c6d88.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:403808692422:android:d8e8d146d69ae17bfb4fc7",
+        "android_client_info": {
+          "package_name": "com.jordanceercles.walletApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "403808692422-k0rt61t97ft67teeafjhk3jiakgfgf62.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jordanceercles.walletApp",
+            "certificate_hash": "85015ed3cf26e2d065e0cea5a96cd740c0693bf0"
+          }
+        },
+        {
+          "client_id": "403808692422-qo46re5rnfjfhl579r77ah9a2204a70h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3sY_h1M7YOeA-BbxKnhPyspmIhTwNcpg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "403808692422-qo46re5rnfjfhl579r77ah9a2204a70h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
